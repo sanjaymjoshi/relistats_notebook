@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3.9"
+
+[packages]
+matplotlib = "*"
+tabulate = "*"
+relistats = {editable = true, git = "https://github.com/sanjaymjoshi/relistats.git"}
+
+[dev-packages]
+black = "==22.3.0"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
