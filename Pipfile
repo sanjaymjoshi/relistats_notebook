@@ -9,7 +9,8 @@ python_version = "3.9"
 [packages]
 matplotlib = "*"
 tabulate = "*"
-relistats = {editable = true, git = "https://github.com/sanjaymjoshi/relistats.git"}
+relistats = "*"
+ipykernel = "*"
 
 [dev-packages]
 black = "==22.3.0"
