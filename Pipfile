@@ -3,9 +3,6 @@ name = "pypi"
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 
-[requires]
-python_version = "3.9"
-
 [packages]
 matplotlib = "*"
 tabulate = "*"
@@ -13,7 +10,7 @@ relistats = "*"
 ipykernel = "*"
 
 [dev-packages]
-black = "==22.3.0"
+black = "*"
 flake8 = "*"
 isort = "*"
 mypy = "*"
